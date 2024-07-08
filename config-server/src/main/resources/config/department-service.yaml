@@ -1,0 +1,11 @@
+server:
+  port: 8782
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8781/eureka/
+management:
+  tracing:
+    sampling:
+      probability: 1.0
